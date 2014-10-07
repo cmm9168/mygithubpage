@@ -1,0 +1,125 @@
+/*Chris Michaels ISTE-240 Website CSS file Version 2.0*/
+
+body 
+{
+	background-image:url('../imgs/Graphic.png');
+	background-size: 100%;
+	font-family: "trebuchet ms", "tahoma", "verdana";
+	margin-left: 2%; 
+	margin-right: 2%; 
+	padding-left: 1em;
+	padding-right: 1em;
+	
+}
+/*headers, adds bar and alignment space*/
+h1
+{
+	text-align:center;
+	overflow: hidden;
+	border-top-left-radius: .4em;
+}
+h2
+{
+	background-color: #A37600;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+h2.title
+{
+	margin-left: -.7em;
+	/*Adds arrow before title*/
+	background-image: url('../imgs/if2.jpg');
+	background-size: 33px 24px;
+	background-position: 1px 3px;
+	background-repeat: no-repeat;
+	padding-left: 35px; 
+	padding-top: -50px;
+}
+h3
+{
+	background-color: #FBF9F6;
+	padding-left: .2em;
+	padding-right: 1em;
+	padding-right: 35px;
+	border-bottom: 2px solid gray;
+	font-size: 120%;
+}
+p
+{
+	margin-left: 1%; 
+	margin-right: 1%; 
+	
+	padding-left: 1em;
+	padding-right: 1em;
+} 
+footer
+{
+	border: 0px solid #D4AA33;
+	border-top-left-radius: .5em;
+	color: #FBF9F6;
+	background-color: #18111C;
+	margin-top: 1%;
+	margin-left: 1%;
+	margin-right: 15.2em;
+	opacity:.9;
+}
+img 
+{ 
+	border-top-left-radius: 2em;
+	float: left; 
+	/*clear: both;*/
+	/*border-right: 1px solid #EFECCA;*/
+	opacity: 1;
+}
+img.bio
+{
+	border: 2px solid #18111C;
+	background-color: #948E81; 
+	border-top-left-radius: 2em;
+	margin-right: 1em;
+	/*width: 92%;*/
+}
+/*
+img.logo 
+{ 
+	float: left; 
+	opacity: 1;
+	max-width: 100%;
+	height: auto;
+	position: relative;
+}
+*/
+}
+description
+{
+	color: #ABA1A0;
+	font-size: 80%;
+	margin-left: 10px;
+}	
+
+/*Adds white space to main paragraph*/
+section
+{	
+	color: #18111C;
+	
+	border: 2px solid #18111C;
+	background-color: #FBF9F6;
+	
+	margin-top: 25px;
+	margin-left: 1%; 
+	margin-right: 1%; 
+	
+	padding-left: 1em;
+	padding-right: 1em;
+	
+	border-top-left-radius: 1.4em;
+	opacity: .9;
+}
+section.bio
+{
+	padding-bottom: 10em;
+}
+iframe
+{
+	opacity: 1;
+}

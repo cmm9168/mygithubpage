@@ -1,0 +1,176 @@
+/*Chris Michaels ISTE-240 Website CSS file Version 2.0*/
+/*Adds navigation bar*/
+header 
+{
+	border: 2px solid #D4AA33;
+	background-color: #18111C; 
+	
+	margin-bottom:0em;
+	padding: 12%;
+	padding-bottom: 0em;
+	padding-top: 0em;
+	overflow:hidden;
+	border-top-left-radius: 2em;
+	/*width: 92%;*/
+	opacity: .75;
+	max-width: 100%;
+}
+
+/*Changes current pages navigation bar link*/
+#currentpage a
+{
+	display: block;
+	padding: 8px 15px 18px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #EFECCA;
+	background-color: #A37600;
+	border-right: 1px solid #EFECCA;
+	border-bottom: 1px solid #EFECCA;
+}
+a.homepage
+{
+	/*border-left: 1px solid #FFF;*/
+	
+}
+#bottomnav a
+{ 
+	color: #FFF;
+	background-color: #046380;
+	width: 9em;
+	padding: 3px 20px 3px 8px;
+	text-decoration: none;
+	border: 1px solid #fff;
+	font-weight: bold;
+}
+#bottomnav a:hover 
+{
+	background-color: #ABA1A0;
+	color: #FFF;
+}
+/*Navigation bar*/
+nav {
+	float: left; 
+	width: 100%; 
+	background: #B28F2B;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 6em;
+	float: left;
+}
+
+nav a, nav h2 
+{
+	font: 11px/16px trebuchet ms, tahoma, verdana;
+	display: block;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ccc # 888 # 555 #bbb;
+	margin: 0;
+	padding: 2px 3px;
+}
+
+nav h2	
+{ 
+	background: url(m4_down.gif) no-repeat top right;
+}
+
+nav a 
+{
+	color: #000;
+	background: #efefef;
+	text-decoration: none;
+}
+
+nav a:hover, t_selected a 
+{
+	color: #a00;
+	background: #fff;
+}
+
+nav li 
+{
+	position: relative;
+}
+
+nav ul ul 
+{
+	position: absolute;
+	z-index: 500;
+}
+
+nav ul ul ul 
+{
+	position: absolute;
+	top: 0;
+	left: 100%;
+}
+
+nav ul ul, 
+nav ul li:hover ul ul, 
+nav ul ul li:hover ul ul 
+{
+	display: none;
+}
+
+nav ul li:hover ul, 
+nav ul ul li:hover ul, 
+nav ul ul ul li:hover ul 
+{
+	display: block;
+}
+/*
+#webnav
+{
+	border: 2px;
+	color: #EFECCA;
+	padding-right: 1em;
+	margin-top:-1.0em;
+	padding-top:0em;
+	padding-bottom: 0em;
+}
+#webnav ul 
+{ 
+	width: 100%;
+	float: left;
+	padding: 0em;
+	margin-top:0em;
+	margin-bottom:0em;
+	list-style: none;
+	font-size: 65%;
+} 
+#webnav li
+{
+	float:left;
+}	
+#webnav li: first-child a
+{
+	border-left: none;
+}	
+#webnav li: last-child a
+{
+	border-right: none;
+}	
+#webnav a 
+{
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #EFECCA;
+	background-color: #40361C;
+	border-right: 1px solid #EFECCA;
+	border-top: 1px solid #EFECCA;
+	border-bottom: 1px solid #EFECCA;
+
+	
+}
+#webnav a:hover 
+{
+	background-color: #7E0C08;
+}
+*/
